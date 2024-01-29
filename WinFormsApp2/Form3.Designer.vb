@@ -37,8 +37,8 @@ Partial Class Form3
         Button13 = New Button()
         TextBox1 = New TextBox()
         Button14 = New Button()
-        Button15 = New Button()
         Button16 = New Button()
+        Button15 = New Button()
         SuspendLayout()
         ' 
         ' Button1
@@ -174,15 +174,6 @@ Partial Class Form3
         Button14.Text = "0"
         Button14.UseVisualStyleBackColor = True
         ' 
-        ' Button15
-        ' 
-        Button15.Location = New Point(203, 244)
-        Button15.Name = "Button15"
-        Button15.Size = New Size(75, 33)
-        Button15.TabIndex = 15
-        Button15.Text = "="
-        Button15.UseVisualStyleBackColor = True
-        ' 
         ' Button16
         ' 
         Button16.Location = New Point(284, 244)
@@ -191,6 +182,15 @@ Partial Class Form3
         Button16.TabIndex = 16
         Button16.Text = " ÷ "
         Button16.UseVisualStyleBackColor = True
+        ' 
+        ' Button15
+        ' 
+        Button15.Location = New Point(203, 244)
+        Button15.Name = "Button15"
+        Button15.Size = New Size(75, 33)
+        Button15.TabIndex = 15
+        Button15.Text = "="
+        Button15.UseVisualStyleBackColor = True
         ' 
         ' Form3
         ' 
@@ -234,6 +234,6 @@ Partial Class Form3
     Friend WithEvents Button13 As Button
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
+    Friend WithEvents Button15 As Button
 End Class
