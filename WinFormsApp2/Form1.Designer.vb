@@ -72,8 +72,9 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.LavenderBlush
         ClientSize = New Size(444, 350)
         Controls.Add(Button1)
         Controls.Add(txtpassword)

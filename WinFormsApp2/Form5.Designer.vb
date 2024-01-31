@@ -41,105 +41,118 @@ Partial Class Form5
         ' 
         ' Button1
         ' 
+        Button1.BackColor = Color.Transparent
+        Button1.Enabled = False
         Button1.Location = New Point(22, 82)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 60)
         Button1.TabIndex = 0
         Button1.Text = "tile1"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(103, 82)
+        Button2.Enabled = False
+        Button2.Location = New Point(22, 148)
         Button2.Name = "Button2"
         Button2.Size = New Size(75, 60)
         Button2.TabIndex = 1
-        Button2.Text = "tile3"
+        Button2.Text = "tile2"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' Button3
         ' 
-        Button3.Location = New Point(184, 82)
+        Button3.Enabled = False
+        Button3.Location = New Point(103, 82)
         Button3.Name = "Button3"
         Button3.Size = New Size(75, 60)
         Button3.TabIndex = 2
-        Button3.Text = "tile5"
+        Button3.Text = "tile3"
         Button3.UseVisualStyleBackColor = True
         ' 
         ' Button4
         ' 
-        Button4.Location = New Point(265, 82)
+        Button4.Enabled = False
+        Button4.Location = New Point(103, 148)
         Button4.Name = "Button4"
         Button4.Size = New Size(75, 60)
         Button4.TabIndex = 3
-        Button4.Text = "tile7"
+        Button4.Text = "tile4"
         Button4.UseVisualStyleBackColor = True
         ' 
         ' Button5
         ' 
-        Button5.Location = New Point(346, 82)
+        Button5.Enabled = False
+        Button5.Location = New Point(184, 82)
         Button5.Name = "Button5"
         Button5.Size = New Size(75, 60)
         Button5.TabIndex = 4
-        Button5.Text = "tile9"
+        Button5.Text = "tile5"
         Button5.UseVisualStyleBackColor = True
         ' 
         ' Button6
         ' 
-        Button6.Location = New Point(427, 82)
+        Button6.Enabled = False
+        Button6.Location = New Point(184, 148)
         Button6.Name = "Button6"
         Button6.Size = New Size(75, 60)
         Button6.TabIndex = 5
-        Button6.Text = "tile11"
+        Button6.Text = "tile6"
         Button6.UseVisualStyleBackColor = True
         ' 
         ' Button7
         ' 
-        Button7.Location = New Point(22, 148)
+        Button7.Enabled = False
+        Button7.Location = New Point(265, 82)
         Button7.Name = "Button7"
         Button7.Size = New Size(75, 60)
         Button7.TabIndex = 6
-        Button7.Text = "tile2"
+        Button7.Text = "tile7"
         Button7.UseVisualStyleBackColor = True
         ' 
         ' Button8
         ' 
-        Button8.Location = New Point(103, 148)
+        Button8.Enabled = False
+        Button8.Location = New Point(265, 148)
         Button8.Name = "Button8"
         Button8.Size = New Size(75, 60)
         Button8.TabIndex = 7
-        Button8.Text = "tile4"
+        Button8.Text = "tile8"
         Button8.UseVisualStyleBackColor = True
         ' 
         ' Button9
         ' 
-        Button9.Location = New Point(184, 148)
+        Button9.Enabled = False
+        Button9.Location = New Point(346, 82)
         Button9.Name = "Button9"
         Button9.Size = New Size(75, 60)
         Button9.TabIndex = 8
-        Button9.Text = "tile6"
+        Button9.Text = "tile9"
         Button9.UseVisualStyleBackColor = True
         ' 
         ' Button10
         ' 
-        Button10.Location = New Point(265, 148)
+        Button10.Enabled = False
+        Button10.Location = New Point(346, 148)
         Button10.Name = "Button10"
         Button10.Size = New Size(75, 60)
         Button10.TabIndex = 9
-        Button10.Text = "tile8"
+        Button10.Text = "tile10"
         Button10.UseVisualStyleBackColor = True
         ' 
         ' Button11
         ' 
-        Button11.Location = New Point(346, 148)
+        Button11.Enabled = False
+        Button11.Location = New Point(427, 82)
         Button11.Name = "Button11"
         Button11.Size = New Size(75, 60)
         Button11.TabIndex = 10
-        Button11.Text = "tile10"
+        Button11.Text = "tile11"
         Button11.UseVisualStyleBackColor = True
         ' 
         ' Button12
         ' 
+        Button12.Enabled = False
         Button12.Location = New Point(427, 148)
         Button12.Name = "Button12"
         Button12.Size = New Size(75, 60)
@@ -158,6 +171,7 @@ Partial Class Form5
         ' 
         ' Button14
         ' 
+        Button14.Enabled = False
         Button14.Location = New Point(265, 231)
         Button14.Name = "Button14"
         Button14.Size = New Size(75, 60)
@@ -177,7 +191,8 @@ Partial Class Form5
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(533, 303)
+        BackColor = Color.Lavender
+        ClientSize = New Size(541, 297)
         Controls.Add(Label1)
         Controls.Add(Button14)
         Controls.Add(Button13)

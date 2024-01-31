@@ -8,12 +8,14 @@ Public Class Form5
         Button2.Enabled = True
         Button13.Enabled = False
         Label1.Text = ""
+
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Button3.Enabled = True
         Button4.Enabled = True
-        Button13.Enabled = False
+        Button1.Enabled = False
+        Button2.Enabled = False
         Label1.Text = ""
     End Sub
 

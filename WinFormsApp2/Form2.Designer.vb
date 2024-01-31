@@ -58,6 +58,7 @@ Partial Class Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.LavenderBlush
         ClientSize = New Size(395, 260)
         Controls.Add(Button3)
         Controls.Add(Button2)

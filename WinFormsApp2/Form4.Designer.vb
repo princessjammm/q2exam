@@ -78,16 +78,17 @@ Partial Class Form4
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(328, 86)
+        Label3.Location = New Point(217, 9)
         Label3.Name = "Label3"
-        Label3.Size = New Size(41, 15)
+        Label3.Size = New Size(38, 15)
         Label3.TabIndex = 6
-        Label3.Text = "Label3"
+        Label3.Text = "label1"
         ' 
-        ' form4
+        ' Form4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.LavenderBlush
         ClientSize = New Size(478, 340)
         Controls.Add(Label3)
         Controls.Add(Label2)
@@ -95,7 +96,7 @@ Partial Class Form4
         Controls.Add(Button2)
         Controls.Add(Button1)
         Controls.Add(Label1)
-        Name = "form4"
+        Name = "Form4"
         Text = "Form4"
         ResumeLayout(False)
         PerformLayout()
