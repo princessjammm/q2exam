@@ -7,16 +7,19 @@
         Dim rando As Integer = GetRandom(0, 3)
         Label2.Text = strComputer(rando)
         If rando = 0 Then
-            MessageBox.Show("You Lose!")
+            MessageBox.Show("Tie!")
             Label2.Text = ""
         ElseIf rando = 1 Then
-            MessageBox.Show("You Won!")
-            score += 1
+            MessageBox.Show("You Lose!")
+
             Label2.Text = ""
-            Label3.Text = score
+
         Else
-            MessageBox.Show("Tie")
+            MessageBox.Show("You Won!")
             Label2.Text = ""
+            score += 1
+            Label3.Text = score
+
         End If
     End Sub
 
@@ -24,16 +27,17 @@
         Dim rando As Integer = GetRandom(0, 3)
         Label2.Text = strComputer(rando)
         If rando = 0 Then
-            MessageBox.Show("Tie")
-            Label2.Text = ""
-        ElseIf rando = 1 Then
-            MessageBox.Show("You Lose!")
-            Label2.Text = ""
-        Else
             MessageBox.Show("You Won!")
             score += 1
             Label2.Text = ""
             Label3.Text = score
+
+        ElseIf rando = 1 Then
+            MessageBox.Show("Tie!")
+            Label2.Text = ""
+        Else
+            MessageBox.Show("You Lose!")
+            Label2.Text = ""
         End If
     End Sub
 
@@ -41,15 +45,16 @@
         Dim rando As Integer = GetRandom(0, 3)
         Label2.Text = strComputer(rando)
         If rando = 0 Then
+            MessageBox.Show("You Lose!")
+            Label2.Text = ""
+        ElseIf rando = 1 Then
             MessageBox.Show("You Won!")
             score += 1
             Label2.Text = ""
             Label3.Text = score
-        ElseIf rando = 1 Then
-            MessageBox.Show("Tie")
-            Label2.Text = ""
+
         Else
-            MessageBox.Show("You Lose!")
+            MessageBox.Show("Tie!")
             Label2.Text = ""
 
         End If
@@ -63,4 +68,8 @@
         Dim Generator As System.Random = New System.Random()
         Return Generator.Next(Min, Max)
     End Function
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
 End Class

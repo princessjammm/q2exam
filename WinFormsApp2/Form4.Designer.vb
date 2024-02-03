@@ -33,56 +33,68 @@ Partial Class Form4
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Location = New Point(197, 55)
+        Label1.Font = New Font("Showcard Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(180, 54)
         Label1.Name = "Label1"
-        Label1.Size = New Size(61, 15)
+        Label1.Size = New Size(106, 20)
         Label1.TabIndex = 1
         Label1.Text = "Computer"
         ' 
         ' Button1
         ' 
+        Button1.BackColor = Color.LightPink
+        Button1.Font = New Font("Showcard Gothic", 12F, FontStyle.Bold)
+        Button1.ForeColor = SystemColors.ControlText
         Button1.Location = New Point(46, 158)
         Button1.Name = "Button1"
         Button1.Size = New Size(75, 53)
         Button1.TabIndex = 2
         Button1.Text = "🗿"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
+        Button2.BackColor = Color.LightPink
+        Button2.Font = New Font("Showcard Gothic", 12F, FontStyle.Bold)
+        Button2.ForeColor = SystemColors.ControlText
         Button2.Location = New Point(197, 158)
         Button2.Name = "Button2"
         Button2.Size = New Size(75, 53)
         Button2.TabIndex = 3
         Button2.Text = "📄"
-        Button2.UseVisualStyleBackColor = True
+        Button2.UseVisualStyleBackColor = False
         ' 
         ' Button3
         ' 
+        Button3.BackColor = Color.LightPink
+        Button3.Font = New Font("Showcard Gothic", 12F, FontStyle.Bold)
+        Button3.ForeColor = SystemColors.ControlText
         Button3.Location = New Point(327, 158)
         Button3.Name = "Button3"
         Button3.Size = New Size(76, 53)
         Button3.TabIndex = 4
         Button3.Text = "✂️"
-        Button3.UseVisualStyleBackColor = True
+        Button3.UseVisualStyleBackColor = False
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(173, 276)
+        Label2.Font = New Font("Showcard Gothic", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(123, 264)
         Label2.Name = "Label2"
-        Label2.Size = New Size(130, 15)
+        Label2.Size = New Size(227, 18)
         Label2.TabIndex = 5
         Label2.Text = "Press one of the Button"
+        Label2.TextAlign = ContentAlignment.TopCenter
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(217, 9)
+        Label3.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(420, 19)
         Label3.Name = "Label3"
-        Label3.Size = New Size(38, 15)
+        Label3.Size = New Size(0, 21)
         Label3.TabIndex = 6
-        Label3.Text = "label1"
         ' 
         ' Form4
         ' 

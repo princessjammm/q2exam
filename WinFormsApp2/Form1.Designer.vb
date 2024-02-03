@@ -32,43 +32,47 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
+        Label1.Font = New Font("Showcard Gothic", 9.75F, FontStyle.Bold)
         Label1.Location = New Point(61, 107)
         Label1.Name = "Label1"
-        Label1.Size = New Size(71, 15)
+        Label1.Size = New Size(89, 17)
         Label1.TabIndex = 0
         Label1.Text = "USERNAME:"
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
+        Label2.Font = New Font("Showcard Gothic", 9.75F, FontStyle.Bold)
         Label2.Location = New Point(61, 180)
         Label2.Name = "Label2"
-        Label2.Size = New Size(71, 15)
+        Label2.Size = New Size(95, 17)
         Label2.TabIndex = 1
         Label2.Text = "PASSWORD:"
         ' 
         ' txtUsername
         ' 
-        txtUsername.Location = New Point(138, 104)
+        txtUsername.Location = New Point(162, 107)
         txtUsername.Name = "txtUsername"
         txtUsername.Size = New Size(238, 23)
         txtUsername.TabIndex = 2
         ' 
         ' txtpassword
         ' 
-        txtpassword.Location = New Point(138, 177)
+        txtpassword.Location = New Point(162, 179)
         txtpassword.Name = "txtpassword"
         txtpassword.Size = New Size(238, 23)
         txtpassword.TabIndex = 3
         ' 
         ' Button1
         ' 
+        Button1.BackColor = Color.LightPink
+        Button1.Font = New Font("Showcard Gothic", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.Location = New Point(163, 275)
         Button1.Name = "Button1"
         Button1.Size = New Size(104, 34)
         Button1.TabIndex = 4
         Button1.Text = "LOGIN"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Form1
         ' 

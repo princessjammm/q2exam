@@ -29,30 +29,36 @@ Partial Class Form2
         ' 
         ' Button1
         ' 
+        Button1.BackColor = Color.LightPink
+        Button1.Font = New Font("Showcard Gothic", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.Location = New Point(120, 31)
         Button1.Name = "Button1"
         Button1.Size = New Size(161, 54)
         Button1.TabIndex = 0
         Button1.Text = "CALCULATOR"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
+        Button2.BackColor = Color.LightPink
+        Button2.Font = New Font("Showcard Gothic", 8.25F, FontStyle.Bold)
         Button2.Location = New Point(120, 104)
         Button2.Name = "Button2"
         Button2.Size = New Size(161, 55)
         Button2.TabIndex = 1
         Button2.Text = "ROCK-PAPER-SCISSOR GAME"
-        Button2.UseVisualStyleBackColor = True
+        Button2.UseVisualStyleBackColor = False
         ' 
         ' Button3
         ' 
+        Button3.BackColor = Color.LightPink
+        Button3.Font = New Font("Showcard Gothic", 11.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button3.Location = New Point(120, 176)
         Button3.Name = "Button3"
         Button3.Size = New Size(161, 57)
         Button3.TabIndex = 2
         Button3.Text = "GLASS GAME"
-        Button3.UseVisualStyleBackColor = True
+        Button3.UseVisualStyleBackColor = False
         ' 
         ' Form2
         ' 
